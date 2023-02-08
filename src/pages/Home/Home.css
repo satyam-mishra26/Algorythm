@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-attachment: scroll;
+    content: '';
+    display: block;
+    height: var(--background-height);
+    left: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    transform: scale(1);
+    width: 100%;
+    z-index: 0;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/event-471a7.appspot.com/o/download.svg?alt=media&token=7002ca84-8ce2-4bd1-8b35-1f53ebcce57b");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color:black;
+}
